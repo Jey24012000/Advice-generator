@@ -1,0 +1,33 @@
+
+
+.title {
+    letter-spacing: 4px;
+    color: hsl(150, 100%, 66%);
+    margin: 28px;
+}
+.advice {
+    margin-bottom: 20px;
+    color: hsl(193, 38%, 86%);
+    font-weight: 500;
+    font-size: 28px;
+}
+.divider{
+    margin-bottom: 40px;
+}
+.button{
+    position: absolute;
+    width: 50px;
+    background-color: hsl(150, 100%, 66%);
+    padding: 12px;
+    border-radius: 50%;
+    border: none;
+    bottom: -25px;
+    right: calc(50% - 25px);
+    cursor: pointer;
+
+}
+.button:hover {
+    color: black;
+    background-color: hsl(150, 100%, 66%);
+    filter: drop-shadow(0 0 20px hsl(150, 100%, 66%)) contrast(2) brightness(2);
+  }
